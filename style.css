@@ -1,6 +1,7 @@
 .Call-Btn{
   font-family: "caveat", cursive;
-  background: white;
+  background: lightslategray;
+  border-radius:5ch;
   color: black;
   font-size: medium;
   font-weight: bold;
