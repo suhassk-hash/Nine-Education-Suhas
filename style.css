@@ -1,13 +1,24 @@
 .Call-Btn{
   font-family: "caveat", cursive;
-  background: lightslategray;
+  background:grey;
   border-radius:5ch;
-  color: black;
+  color:black;
   font-size: large;
   font-weight: bold;
   transition: 0.5s;
   float: right;
 }
+.Call-Btn.hover{
+  font-family: "caveat", cursive;
+  background:white;
+  border-radius:5ch;
+  color:blue;
+  font-size: large;
+  font-weight: bold;
+  transition: 0.5s;
+  float: right;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -125,4 +136,14 @@ a:hover {
   #check:checked ~ ul {
     left: 0;
   }
+}
+.IIT-FOnt{
+  font-family: garamond,cursive;
+  font-style: italic ;
+  font-size: large;
+  font-size: 120%;
+}
+.Main-Paragraph{
+  font-weight:800;
+  
 }
