@@ -1,9 +1,10 @@
 .Call-Btn{
-  background-color: lightslategray;
-  font-family: Caveat;
-  color: white;
-  font-size: 25;
-  
+  font-family: "caveat", cursive;
+  background: white;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  transition: 0.5s;
 }
 html{
   scroll-behavior: smooth;
