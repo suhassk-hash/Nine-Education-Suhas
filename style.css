@@ -10,9 +10,8 @@
 }
 .Call-Btn.hover{
   font-family: "caveat", cursive;
-  background:white;
+  background:black;
   border-radius:5ch;
-  color:blue;
   font-size: large;
   font-weight: bold;
   transition: 0.5s;
