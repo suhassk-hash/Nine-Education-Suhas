@@ -6,7 +6,7 @@
   font-size: large;
   font-weight: bold;
   transition: 0.5s;
-  float: right;
+    align-items: center;
 }
 .Call-Btn.hover{
   font-family: "caveat", cursive;
@@ -137,13 +137,41 @@ a:hover {
     left: 0;
   }
 }
-.IIT-FOnt{
-  font-family: garamond,cursive;
+.IIT-Font{
+  font-family: garamond;
   font-style: italic ;
-  font-size: large;
+  font-size: medium;
   font-size: 120%;
+  margin-top: 25%;
 }
 .Main-Paragraph{
   font-weight:800;
-  
+}
+/*Container Styling*/
+.column{
+  float:left;
+  width:33.33%;
+  padding:5px;
+  font-family: garamond;
+  font-weight: 800;
+ 
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column{
+    width:100%
+  }
+  }
+  /*Container-Styling-Font-Size*/
+ .Left-Container{
+margin-top: 20%;
+font-family: garamond;
+  }
+/*Header-Image-Styling*/
+.Header-1{
+max-width: 100%;
 }
