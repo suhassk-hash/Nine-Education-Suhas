@@ -1,13 +1,24 @@
 .Call-Btn{
-  font-family: "caveat", cursive;
-  background:grey;
+  font-family: "Garamond", cursive;
   border-radius:5ch;
   color:black;
   font-size: large;
   font-weight: bold;
   transition: 0.5s;
-    align-items: center;
+  float: center;
+  text-align: center;
+  display: block;
 }
+.Call-Btn.hover{
+  font-family: "caveat", cursive;
+  background:black  ;
+  border-radius:5ch;
+  font-size: large;
+  font-weight: bold;
+  transition: 0.5s;
+  float: right;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -163,4 +174,5 @@ font-family: garamond !important;
 /*Header-Image-Styling*/
 .Header-1{
 max-width: 100% !important;
+height: auto;
 }
