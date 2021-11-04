@@ -8,16 +8,6 @@
   transition: 0.5s;
     align-items: center;
 }
-.Call-Btn.hover{
-  font-family: "caveat", cursive;
-  background:black  ;
-  border-radius:5ch;
-  font-size: large;
-  font-weight: bold;
-  transition: 0.5s;
-  float: right;
-}
-
 html{
   scroll-behavior: smooth;
 }
@@ -137,7 +127,7 @@ a:hover {
   }
 }
 .IIT-Font{
-  font-family: garamond;
+  font-family: garamond !important;
   font-style: italic ;
   font-size: medium;
   font-size: 120%;
@@ -151,7 +141,7 @@ a:hover {
   float:left;
   width:33.33%;
   padding:5px;
-  font-family: garamond;
+  font-family: garamond !important;
   font-weight: 800;
  
 }
@@ -168,9 +158,9 @@ a:hover {
   /*Container-Styling-Font-Size*/
  .Left-Container{
 margin-top: 20%;
-font-family: garamond;
+font-family: garamond !important;
   }
 /*Header-Image-Styling*/
 .Header-1{
-max-width: 100%;
+max-width: 100% !important;
 }
