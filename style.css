@@ -46,6 +46,7 @@ label.logo {
   padding: 0 100px;
   font-weight: normal;
   font-family: ntr;
+  margin-top: 0%;
   background-color: white;
   filter: drop-shadow(2px 4px 8px );
 }
