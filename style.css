@@ -1,5 +1,5 @@
 .Call-Btn{
-  font-family: "Garamond", cursive;
+  font-family: "Roboto Condensed", cursive;
   border-radius:5ch;
   color:black;
   font-size: large;
@@ -10,7 +10,7 @@
   display: block;
 }
 .Call-Btn.hover{
-  font-family: "caveat", cursive;
+  font-family: "Roboto Condensed", cursive;
   background:black  ;
   border-radius:5ch;
   font-size: large;
@@ -54,7 +54,7 @@ label.logo {
   font-size: 20px;
   padding-left: 50px;
   padding-right: 0;
-  font-family:caveat;
+  font-family:Roboto Condensed;
 }
 nav ul {
   float: right;
@@ -66,7 +66,7 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  font-family: caveat;
+  font-family: Roboto Condensed;
   color: black;
   font-size: 17px;
   padding: 7px 13px;
@@ -75,7 +75,7 @@ nav ul li a {
 }
 a.active,
 a:hover {
-  font-family: "caveat", cursive;
+  font-family: "Roboto Condensed", cursive;
   background: white;
   color: black;
   font-size: large;
@@ -139,21 +139,34 @@ a:hover {
   }
 }
 .IIT-Font{
-  font-family: garamond !important;
+  font-family: Roboto Condensed !important;
   font-style: italic ;
   font-size: medium;
   font-size: 120%;
   margin-top: 25%;
 }
+.IIT{
+  font-family: Roboto Condensed !important;
+  font-size: medium;
+  font-size: 120%;
+  margin-top: 25%;
+  text-align: center;
+margin-top: 0%;
+}
+.Main-Paragraph1{
+  text-align: center;
+  font-family: roboto condensed;
+}
 .Main-Paragraph{
   font-weight:800;
+  font-family: roboto condensed;
 }
 /*Container Styling*/
 .column{
   float:left;
   width:33.33%;
   padding:5px;
-  font-family: garamond !important;
+  font-family: roboto condensed!important;
   font-weight: 800;
  
 }
@@ -170,10 +183,90 @@ a:hover {
   /*Container-Styling-Font-Size*/
  .Left-Container{
 margin-top: 20%;
-font-family: garamond !important;
+font-family: Roboto Condensed !important;
   }
 /*Header-Image-Styling*/
 .Header-1{
 max-width: 100% !important;
 height: auto;
 }
+/*Container Styling*/
+.column1{
+  float:left;
+  width:50%;
+  padding:5px;
+  font-family: roboto condensed !important;
+  font-weight: 800;
+ 
+}
+.row::after1{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column1{
+    width:100%
+  }
+  }
+  /*Container Styling*/
+.column2{
+  float:left;
+  width:33.3%;
+  padding:5px;
+  font-family: roboto condensed !important;
+  font-weight: 800;
+ 
+}
+.row2::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column2{
+    width:100%
+  }
+  }
+  /*Image-Styling*/
+  /*Image-2-Styling*/
+   .Image-2{
+     margin: 0%;
+     margin-left: 0%;
+     margin-top: 45%;
+      max-width: 100%;
+     } 
+      .txt-list{
+         margin-left: 10%;
+         }
+         span{
+           color: darkblue;
+         }
+    .container{
+      max-width:100% ;
+      align-items: center;
+      text-align: center;
+    }
+    .container1{
+    text-align: center;
+    }
+/*A-Z-Styling*/
+.A-Z{
+  font-family: roboto condensed;
+  text-align: center;
+}
+button{
+  font-family: roboto condensed;
+background-color: 	#007FFF;
+color: white;
+padding: 2%;
+text-transform: 0.5ms;
+font-size: large;
+}
+button.hover{
+  font-family: roboto condensed;
+  background-color: 	#007FFF;
+  color: white;
+  padding: 2%;
+}
+/*Image align*/
