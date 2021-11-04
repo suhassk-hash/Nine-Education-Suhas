@@ -10,7 +10,7 @@
 }
 .Call-Btn.hover{
   font-family: "caveat", cursive;
-  background:black;
+  background:black  ;
   border-radius:5ch;
   font-size: large;
   font-weight: bold;
@@ -65,7 +65,7 @@ nav ul li {
 }
 nav ul li a {
   font-family: caveat;
-  color: white;
+  color: black;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
