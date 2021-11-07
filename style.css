@@ -41,12 +41,9 @@ nav {
 }
 label.logo {
   color: white;
-  font-size: 20px;
-  line-height: 80px;
-  padding: 0 100px;
   font-weight: normal;
   font-family: ntr;
-  margin-top: 0%;
+  align-content: center;
   background-color: white;
   filter: drop-shadow(2px 4px 8px );
 }
@@ -55,6 +52,8 @@ label.logo {
   padding-left: 50px;
   padding-right: 0;
   font-family:Roboto Condensed;
+  align-content: center;
+  margin-left: -45px;
 }
 nav ul {
   float: right;
@@ -86,13 +85,24 @@ a:hover {
 .checkbtn {
   font-size: 30px;
   color: white;
-  float: right;
+  float: left;
   line-height: 80px;
+  margin-left: 10px;
   margin-right: 40px;
   cursor: pointer;
-  margin-top: 9;
-  
+  margin-top: 9px;
 }
+.checkbtn1 {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 #check {
   display: none;
   margin-top: 10%;
@@ -111,6 +121,7 @@ a:hover {
     display: block;
     color: black;
   }
+  
   ul {
     position: fixed;
     width: 100%;
@@ -241,24 +252,28 @@ height: auto;
       -ms-border-radius: 20%;
       -o-border-radius: 20%;
 } 
-      .txt-list{
-         margin-left: 10%;
-         }
-         span{
-           color: darkblue;
+      
+         .color{
+           color: #29465B;
+           font-size: x-large;
          }
     .container{
       max-width:100% ;
       align-items: center;
       text-align: center;
+      
     }
     .container1{
     text-align: center;
+    background-color: #29465B;
     }
 /*A-Z-Styling*/
 .A-Z{
   font-family: roboto condensed;
   text-align: center;
+  font-weight: 400;
+  background-color: #29465B;
+  color: white;
 }
 
 button{
@@ -308,6 +323,9 @@ button.hover{
     width:100%
   }
   }
+ 
+  
+  
   /*Container-3-Styling*/
 .column6{
   float:left;
@@ -328,12 +346,25 @@ button.hover{
   }
   }
   .column-7{
-    float:right;
-    width:100%;
+    float: left;
+    width:33.33%;
     padding:3%;
     font-family: roboto condensed !important;
     font-weight: 100;
-    
+  }
+  .column-9{
+    float: right;
+    width:33.33%;
+    padding:3%;
+    font-family: roboto condensed !important;
+    font-weight: 100;
+  }
+  .column-8{
+    float: right;
+    width:33.33%;
+    padding:3%;
+    font-family: roboto condensed !important;
+    font-weight: 100;
   }
   .row::after{
     content:"";
@@ -342,7 +373,13 @@ button.hover{
   }
   @media screen and (max-width:500px){
     .column-7{
-      width:100%
+      width:100%;
+    }
+    .column-8{
+      width:100%;
+    }
+    .column-9{
+      width:100%;
     }
     }
   /*image05 styling*/
@@ -378,3 +415,215 @@ span{
   .footer{
     background-color: #29465B;
   }
+  /*about us            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Styling*/
+.head{
+  background-image: url(./Nine-Education-Suhas-Files/20.jpg);
+  background-size: cover;
+  height: 456px;
+  font-size:xx-large;
+  color: white;
+  font-family: roboto condensed;
+  font-weight: 400;
+  text-align: center;
+}
+.text-about{
+  padding-top: 10%;
+  margin-left: 0%;
+}
+/*Container-3-Styling*/
+.column11{
+  float:left;
+  width:50%;
+  padding:10%;
+  font-family: roboto condensed !important;
+  font-weight: 600;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column11{
+    width:100%
+  }
+  }
+  /*Container-3-Styling*/
+.column12{
+  float:left;
+  width:50%;
+  padding:10%;
+  font-family: roboto condensed !important;
+  font-weight: 600;
+  margin-top:3%;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column12{
+    width:100%
+  }
+  }
+   
+
+  .row11{
+    margin-top: -3%;
+  }
+
+
+  .column10{
+    float:left;
+    margin-left: 1%;
+    width:15%;
+    font-family: roboto condensed !important;
+    font-weight: 600;
+    margin-top:3%;
+  }
+  .row::after{
+    content:"";
+    clear:both;
+    display:table
+  }
+  @media screen and (max-width:500px){
+    .column10{
+      max-width:100%
+    }
+    }
+    
+  .image-7{
+    margin-top: -10%;
+    max-width: 100%;
+  }
+  .image-8{
+    margin-top: -20%;
+    max-width: 100%;
+  }
+  
+ .row111{
+  height:258px;
+  background-image: url(./Nine-Education-Suhas-Files/23.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 8%;
+  font-family: roboto condensed;
+  font-size: xx-large;
+  color: white;
+  text-decoration: underline;
+ }
+ .row112{
+  height:258px;
+  background-image: url(./Nine-Education-Suhas-Files/45.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 8%;
+  font-family: roboto condensed;
+  font-size: xx-large;
+  color: white;
+  text-decoration: underline;
+ }
+ .image-9{
+  max-width: 100%;
+  border-radius: 2%;
+  padding: 5%;
+  width: 50%;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+
+
+
+
+
+
+
+.main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.img-box{
+  width: 300px; 
+  margin: 10px;
+  transition: all .5s;
+  cursor: pointer;
+}
+.img-box img{
+  width: 100%;
+}
+.img-box:hover{
+  transform: scale(1.05);
+}
+
+.window{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.857);
+  transition: all 0.8s;
+}
+.window.open{
+  opacity: 1;
+  pointer-events: all;
+}
+.window img{
+  width: 100%;
+}
+@media(max-width: 1100px){
+  .window .full-img{
+      width: 80%;
+  }
+}
+
+/*Container-3-Styling*/
+.row13{
+  float:left;
+  width:50%;
+  
+  font-family: roboto condensed !important;
+  font-weight: 600;
+}
+.row5::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .row13{
+    width:100%
+  }
+  }
+
+.image-10{
+  padding-left:10%;
+  border-radius: 10px;
+  max-width: 90%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
