@@ -241,11 +241,10 @@ height: auto;
       -ms-border-radius: 20%;
       -o-border-radius: 20%;
 } 
-      .txt-list{
-         margin-left: 10%;
-         }
-         span{
-           color: darkblue;
+     
+         
+         .color{
+           color:#29465B;
          }
     .container{
       max-width:100% ;
