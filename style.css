@@ -252,17 +252,11 @@ height: auto;
       -ms-border-radius: 20%;
       -o-border-radius: 20%;
 } 
-<<<<<<< HEAD
+
       
          .color{
            color: #29465B;
            font-size: x-large;
-=======
-     
-         
-         .color{
-           color:#29465B;
->>>>>>> cc9fee79f4afabc3a784efb9a02a3df4762785bf
          }
     .container{
       max-width:100% ;
@@ -422,7 +416,7 @@ span{
   .footer{
     background-color: #29465B;
   }
-<<<<<<< HEAD
+
   /*about us            
   
   
@@ -635,5 +629,3 @@ span{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-=======
->>>>>>> cc9fee79f4afabc3a784efb9a02a3df4762785bf
