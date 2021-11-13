@@ -537,6 +537,17 @@ span{
   color: white;
   text-decoration: underline;
  }
+ .row113{
+  height:258px;
+  background-image: url(./Nine-Education-Suhas-Files/46.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 8%;
+  font-family: roboto condensed;
+  font-size: xx-large;
+  color: white;
+  text-decoration: underline;
+ }
  .image-9{
   max-width: 100%;
   border-radius: 2%;
