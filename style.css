@@ -53,7 +53,7 @@ label.logo {
   padding-right: 0;
   font-family:Roboto Condensed;
   align-content: center;
-  margin-left: -45px;
+  margin-left: -5px;
 }
 nav ul {
   float: right;
@@ -168,6 +168,11 @@ margin-top: 0%;
   text-align: center;
   font-family: roboto condensed;
 }
+.Main-Paragraph2{
+  text-align: center;
+  font-family: roboto condensed;
+  font-weight:800;
+}
 .Main-Paragraph{
   font-weight:800;
   font-family: roboto condensed;
@@ -275,6 +280,13 @@ height: auto;
   font-weight: 400;
   background-color: #29465B;
   color: white;
+}
+.A-Z1{
+  font-family: roboto condensed;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+  color: #29465B;
 }
 
 button{
@@ -548,6 +560,17 @@ span{
   color: white;
   text-decoration: underline;
  }
+ .row114{
+  height:500px;
+  background-image: url(./Nine-Education-Suhas-Files/47.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 8%;
+  font-family: roboto condensed;
+  font-size: xx-large;
+  color: white;
+  text-decoration: underline;
+ }
  .image-9{
   max-width: 100%;
   border-radius: 2%;
@@ -640,3 +663,22 @@ span{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+
+.column13{
+  padding: 10px;
+  font-family: roboto condensed !important;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+}
+.row::after{
+  content:"";
+  clear:both;
+  display:table
+}
+@media screen and (max-width:500px){
+  .column13{
+    width:100%
+  }
+  }
